@@ -19,6 +19,7 @@ x-trestle-set-params:
       - privileged
   ac-2_prm_2:
     values:
+    - stuff
   ac-2_prm_3:
     values:
       - standard operations
