@@ -42,6 +42,14 @@ x-trestle-global:
   profile:
     title: ACME Inc. official controls profile.
   sort-id: ac-01
+x-trestle-evidence:
+  named-evidence: location
+x-trestle-dependent-on:
+  - control-id:
+    profile:
+reviewed-by:
+  - named:
+    date:
 ---
 
 # ac-1 - \[Access Control\] Access Control Policy and Procedures

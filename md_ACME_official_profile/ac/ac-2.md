@@ -47,6 +47,14 @@ x-trestle-global:
   profile:
     title: ACME Inc. official controls profile.
   sort-id: ac-02
+x-trestle-evidence:
+  named-evidence: location
+x-trestle-dependent-on:
+  - control-id:
+    profile:
+reviewed-by:
+  - named:
+    date:
 ---
 
 # ac-2 - \[Access Control\] Account Management

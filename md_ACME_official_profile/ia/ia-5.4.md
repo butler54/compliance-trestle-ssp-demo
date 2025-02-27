@@ -35,6 +35,14 @@ x-trestle-global:
   profile:
     title: ACME Inc. official controls profile.
   sort-id: ia-05.04
+x-trestle-evidence:
+  named-evidence: location
+x-trestle-dependent-on:
+  - control-id:
+    profile:
+reviewed-by:
+  - named:
+    date:
 ---
 
 # ia-5.4 - \[Identification and Authentication\] Automated Support for Password Strength Determination

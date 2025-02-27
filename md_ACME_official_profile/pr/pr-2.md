@@ -2,6 +2,14 @@
 x-trestle-global:
   profile:
     title: ACME Inc. official controls profile.
+x-trestle-evidence:
+  named-evidence: location
+x-trestle-dependent-on:
+  - control-id:
+    profile:
+reviewed-by:
+  - named:
+    date:
 ---
 
 # pr-2 - \[Privilege Rating\] Registering exemptions to right to delete
