@@ -27,9 +27,11 @@ jobs:
         run: make install
       - name: ssp word
         run: make ssp-word
+      - name: Extract tag name
+        run: echo "TAG_NAME=$(echo ${{ github.ref }} | sed 's/refs\/tags\///')" >> $GITHUB_ENV
       - name: Upload Release Asset
         run: |
-          gh release upload ${{ github.event.release.tag_name }} acme_platform_ssp.docx
-          gh release upload ${{ github.event.release.tag_name }} system-security-plans/ACME_SSP/system-security-plan.json
+          gh release upload ${{ env.TAG_NAME }} acme_platform_ssp.docx
+          gh release upload ${{ env.TAG_NAME }} system-security-plans/ACME_SSP/system-security-plan.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
