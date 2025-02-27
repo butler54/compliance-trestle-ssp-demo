@@ -1,0 +1,34 @@
+name: Validate bootc build and release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+
+jobs:
+  update_json:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+      - name: Install pandoc
+        run: sudo apt-get install pandoc
+      - name: Install dependencies
+        run: make install    
+      - name: ssp word
+        run: make ssp-word
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          acme_platform_ssp.docx
+          system-security-plans/ACME_SSP/system-security-plan.json
