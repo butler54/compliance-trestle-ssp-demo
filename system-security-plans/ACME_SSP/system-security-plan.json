@@ -3,7 +3,7 @@
     "uuid": "05bc8eb4-4a8a-4b54-8c10-ee3eba2c401f",
     "metadata": {
       "title": "REPLACE_ME",
-      "last-modified": "2025-02-27T04:48:46.441059+00:00",
+      "last-modified": "2025-02-27T04:51:25.460961+00:00",
       "version": "REPLACE_ME",
       "oscal-version": "1.0.4"
     },
@@ -616,7 +616,7 @@
             {
               "component-uuid": "ceb0b4b0-8b3c-4e71-8874-57d42c0f36e3",
               "uuid": "30bc25ac-8659-4002-bc08-f62c73584389",
-              "description": "Implement properly for This System component.",
+              "description": "This system implemented bananas.",
               "implementation-status": {
                 "state": "implemented"
               }
