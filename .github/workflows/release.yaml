@@ -24,11 +24,12 @@ jobs:
       - name: Install pandoc
         run: sudo apt-get install pandoc
       - name: Install dependencies
-        run: make install    
+        run: make install
       - name: ssp word
         run: make ssp-word
-      - name: Release
-        uses: softprops/action-gh-release@v2
-        with:
-          acme_platform_ssp.docx
-          system-security-plans/ACME_SSP/system-security-plan.json
+      - name: Upload Release Asset
+        run: |
+          gh release upload ${{ github.event.release.tag_name }} acme_platform_ssp.docx
+          gh release upload ${{ github.event.release.tag_name }} system-security-plans/ACME_SSP/system-security-plan.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
