@@ -1,4 +1,4 @@
-name: Validate bootc build and release
+name: Rebuild SSP Json
 
 on:
   push:

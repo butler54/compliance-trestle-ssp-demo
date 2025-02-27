@@ -1,4 +1,4 @@
-name: Validate bootc build and release
+name: Release SSP artifacts
 
 on:
   push:
