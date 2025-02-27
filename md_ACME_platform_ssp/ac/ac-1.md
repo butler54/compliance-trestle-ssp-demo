@@ -52,6 +52,18 @@ x-trestle-global:
     title: ACME Inc. internal controls profile.
     href: trestle://profiles/ACME_int_guidance/profile.json
   sort-id: ac-01
+x-trestle-add-props: []
+  # Add or modify control properties here
+  # Properties may be at the control or part level
+  # Add control level properties like this:
+  #   - name: ac1_new_prop
+  #     value: new property value
+  #
+  # Add properties to a statement part like this, where "b." is the label of the target statement part
+  #   - name: ac1_new_prop
+  #     value: new property value
+  #     smt-part: b.
+  #
 ---
 
 # ac-1 - \[Access Control\] Access Control Policy and Procedures

@@ -15,6 +15,27 @@ x-trestle-global:
     title: ACME Inc. official controls profile.
     href: trestle://profiles/ACME_official/profile.json
   sort-id: sc-01
+x-trestle-rules-params:
+  IDSERVICE:
+    - name: idservice_min_pass_reuse_count
+      description: Min. password reuse count
+      options: 4, 8
+      rule-id: idservice_password_not_reuse_min_count
+x-trestle-comp-def-rules-param-vals:
+  # You may set new values for rule parameters by adding
+  #
+  # component-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values as set by the components, and the component-values are the new values
+  # to be placed in SetParameters of the component definition.
+  #
+  IDSERVICE:
+    - name: idservice_min_pass_reuse_count
+      values:
+        - '4'
 ---
 
 # sc-1 - \[System and Communications Protection\] System and Communications Protection Policy and Procedures

@@ -65,6 +65,18 @@ x-trestle-global:
   profile:
     title: ACME Inc. internal controls profile.
     href: trestle://profiles/ACME_int_guidance/profile.json
+x-trestle-add-props: []
+  # Add or modify control properties here
+  # Properties may be at the control or part level
+  # Add control level properties like this:
+  #   - name: ac1_new_prop
+  #     value: new property value
+  #
+  # Add properties to a statement part like this, where "b." is the label of the target statement part
+  #   - name: ac1_new_prop
+  #     value: new property value
+  #     smt-part: b.
+  #
 ---
 
 # pr-1 - \[Privilege Rating\] Right to access and deletion of records

@@ -35,7 +35,13 @@ reviewed-by:
 x-trestle-fedramp-props:
   control-origination:
     - Service provider Corporate
+    - Service provider System Specific Authorization
     - Service provider System Specific
+    - Service Provider Hybrid (Corporate and System Specific)
+    - Configured by Customer (Customer System Specific)
+    - Provided by Customer (Customer System Specific)
+    - Shared (Service Provider and Customer Responsibility)
+    - Inherited from pre-existing FedRAMP Authorization [Enter text here], Date of
       Authorization
   implementation-status:
     - Implemented
@@ -48,6 +54,18 @@ x-trestle-global:
   profile:
     title: ACME Inc. internal controls profile.
     href: trestle://profiles/ACME_int_guidance/profile.json
+x-trestle-add-props: []
+  # Add or modify control properties here
+  # Properties may be at the control or part level
+  # Add control level properties like this:
+  #   - name: ac1_new_prop
+  #     value: new property value
+  #
+  # Add properties to a statement part like this, where "b." is the label of the target statement part
+  #   - name: ac1_new_prop
+  #     value: new property value
+  #     smt-part: b.
+  #
 ---
 
 # cc-2 - \[Custom Controls\] Carbon reporting

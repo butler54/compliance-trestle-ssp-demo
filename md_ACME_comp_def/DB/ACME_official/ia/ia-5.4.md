@@ -11,6 +11,27 @@ x-trestle-global:
     title: ACME Inc. official controls profile.
     href: trestle://profiles/ACME_official/profile.json
   sort-id: ia-05.04
+x-trestle-rules-params:
+  DB:
+    - name: db_min_pass_len
+      description: Min. password length
+      options: 8, 12, 16
+      rule-id: db_password_min_length
+x-trestle-comp-def-rules-param-vals:
+  # You may set new values for rule parameters by adding
+  #
+  # component-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values as set by the components, and the component-values are the new values
+  # to be placed in SetParameters of the component definition.
+  #
+  DB:
+    - name: db_min_pass_len
+      values:
+        - '16'
 ---
 
 # ia-5.4 - \[Identification and Authentication\] Automated Support for Password Strength Determination

@@ -113,13 +113,19 @@ The organization:
 
 #### Component: This System
 
-Implement properly for This System component.
+This system implemented bananas.
 
 ##### Implementation Status: implemented
 
 #### Implementation for part d.
 
 #### Component: DB
+
+Implement well for component DB and part d.
+
+##### Implementation Status: partial
+
+#### Component: bc679ca3-6158-4e9a-be30-0ba9bf87c90d
 
 Implement well for component DB and part d.
 
@@ -145,11 +151,11 @@ All services should report energy consumed by their service.
 
 ##### Implementation Status: planned
 
-#### Component: IDSERVICE
+#### Component: bc679ca3-6158-4e9a-be30-0ba9bf87c90d
 
 ##### Implementation Status: planned
 
-#### Component: DB
+#### Component: 0c410eb1-52cd-40bc-bf1d-c80126a984f9
 
 ##### Implementation Status: planned
 
@@ -168,9 +174,11 @@ All services must calculate and report total scope 3 energy consumption.
 
 #### Component: This System
 
+We did great!
+
 ##### Implementation Status: planned
 
-#### Component: IDSERVICE
+#### Component: 0c410eb1-52cd-40bc-bf1d-c80126a984f9
 
 ##### Implementation Status: planned
 
@@ -225,6 +233,14 @@ The information system, for password-based authentication:
 
 ##### Implementation Status: planned
 
+#### Component: bc679ca3-6158-4e9a-be30-0ba9bf87c90d
+
+##### Implementation Status: planned
+
+#### Component: 0c410eb1-52cd-40bc-bf1d-c80126a984f9
+
+##### Implementation Status: planned
+
 #### Implementation for part (e)
 
 #### Component: IDSERVICE
@@ -232,6 +248,14 @@ The information system, for password-based authentication:
 ##### Implementation Status: planned
 
 #### Component: DB
+
+##### Implementation Status: planned
+
+#### Component: bc679ca3-6158-4e9a-be30-0ba9bf87c90d
+
+##### Implementation Status: planned
+
+#### Component: 0c410eb1-52cd-40bc-bf1d-c80126a984f9
 
 ##### Implementation Status: planned
 
@@ -258,11 +282,11 @@ The organization employs automated tools to determine if password authenticators
 
 ##### Implementation Status: planned
 
-#### Component: IDSERVICE
+#### Component: bc679ca3-6158-4e9a-be30-0ba9bf87c90d
 
 ##### Implementation Status: planned
 
-#### Component: DB
+#### Component: 0c410eb1-52cd-40bc-bf1d-c80126a984f9
 
 ##### Implementation Status: planned
 
@@ -294,11 +318,11 @@ Any service or offering MUST:
 
 ##### Implementation Status: planned
 
-#### Component: IDSERVICE
+#### Component: bc679ca3-6158-4e9a-be30-0ba9bf87c90d
 
 ##### Implementation Status: planned
 
-#### Component: DB
+#### Component: 0c410eb1-52cd-40bc-bf1d-c80126a984f9
 
 ##### Implementation Status: planned
 
@@ -317,11 +341,11 @@ Any service or offering MUST:
 
 ##### Implementation Status: planned
 
-#### Component: IDSERVICE
+#### Component: bc679ca3-6158-4e9a-be30-0ba9bf87c90d
 
 ##### Implementation Status: planned
 
-#### Component: DB
+#### Component: 0c410eb1-52cd-40bc-bf1d-c80126a984f9
 
 ##### Implementation Status: planned
 
@@ -363,7 +387,7 @@ The organization:
 
 ##### Implementation Status: planned
 
-#### Component: IDSERVICE
+#### Component: 0c410eb1-52cd-40bc-bf1d-c80126a984f9
 
 ##### Implementation Status: planned
 
@@ -384,6 +408,6 @@ The information system separates user functionality (including user interface se
 
 ##### Implementation Status: planned
 
-#### Component: DB
+#### Component: bc679ca3-6158-4e9a-be30-0ba9bf87c90d
 
 ##### Implementation Status: planned
