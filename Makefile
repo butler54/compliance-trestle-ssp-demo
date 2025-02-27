@@ -1,5 +1,4 @@
-pre-commit: 
-	pre-commit install
+
 
 install:
 	python3 -m pip install  --upgrade pip setuptools
@@ -7,10 +6,6 @@ install:
 	python3 -m pip install pandas gitpython
 	python3 -m pip install pre-commit
 	python3 -m pip install python-semantic-release
-	pre-commit install
-
-mdformat:
-	pre-commit run mdformat --all-files
 
 create-comp-def:
 	trestle task csv-to-oscal-cd -c assets/csv-to-oscal-cd.config
