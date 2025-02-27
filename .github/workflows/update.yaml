@@ -23,8 +23,12 @@ jobs:
           python-version: 3.11
       - name: Install pandoc
         run: sudo apt-get install pandoc
-      - name: Install depedencies
+      - name: Install dependencies
         run: make install 
+      - name: install pre-commit
+        run: make pre-commit
+      - name: mdformat
+        run: make mdformat
       - name: ssp json
         run: make update-oscal
       - uses: stefanzweifel/git-auto-commit-action@v5
