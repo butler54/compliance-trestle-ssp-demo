@@ -3,7 +3,7 @@
     "uuid": "05bc8eb4-4a8a-4b54-8c10-ee3eba2c401f",
     "metadata": {
       "title": "REPLACE_ME",
-      "last-modified": "2025-02-27T04:51:25.460961+00:00",
+      "last-modified": "2025-02-27T05:23:06.985433+00:00",
       "version": "REPLACE_ME",
       "oscal-version": "1.0.4"
     },
@@ -459,7 +459,7 @@
             {
               "component-uuid": "ceb0b4b0-8b3c-4e71-8874-57d42c0f36e3",
               "uuid": "7c045a8d-74c6-4047-a17f-b6661660b332",
-              "description": "",
+              "description": "We did great!",
               "implementation-status": {
                 "state": "planned"
               }
