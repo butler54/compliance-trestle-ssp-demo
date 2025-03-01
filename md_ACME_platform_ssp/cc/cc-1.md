@@ -59,10 +59,6 @@ x-trestle-fedramp-props:
       Authorization
   implementation-status:
     - Implemented
-    - Partially implemented
-    - Planned
-    - Alternative implementation
-    - Not Applicable
   responsible-roles:
 x-trestle-global:
   profile:
@@ -98,7 +94,7 @@ ______________________________________________________________________
 
 ### This System
 
-<!-- Add implementation prose for the main This System component for control: cc-1 -->
+Kepler is used to measure energy consuption within the system.
 
 #### Implementation Status: planned
 
