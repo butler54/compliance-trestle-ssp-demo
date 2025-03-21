@@ -135,8 +135,8 @@ ______________________________________________________________________
 
 ### This System
 
-<!-- Add implementation prose for the main This System component for control: ac-1 -->
+This system uses OpenShift. Red Hat said it was secure.
 
-#### Implementation Status: planned
+#### Implementation Status: implemented.
 
 ______________________________________________________________________
