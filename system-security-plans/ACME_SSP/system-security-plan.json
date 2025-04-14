@@ -3,7 +3,7 @@
     "uuid": "05bc8eb4-4a8a-4b54-8c10-ee3eba2c401f",
     "metadata": {
       "title": "REPLACE_ME",
-      "last-modified": "2025-03-21T07:53:25.645238+00:00",
+      "last-modified": "2025-04-14T05:50:18.339709+00:00",
       "version": "REPLACE_ME",
       "oscal-version": "1.0.4"
     },
@@ -563,9 +563,9 @@
             {
               "component-uuid": "ceb0b4b0-8b3c-4e71-8874-57d42c0f36e3",
               "uuid": "101a691a-d4c3-4b3b-ad47-010e2a9182ac",
-              "description": "",
+              "description": "Each application component is deployed in their own namespaces with default deny network policies across namespaces",
               "implementation-status": {
-                "state": "planned"
+                "state": "Implemented"
               }
             },
             {
