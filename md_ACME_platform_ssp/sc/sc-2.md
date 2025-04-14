@@ -92,9 +92,9 @@ ______________________________________________________________________
 
 ### This System
 
-<!-- Add implementation prose for the main This System component for control: sc-2 -->
+Each application component is deployed in their own namespaces with default deny network policies across namespaces
 
-#### Implementation Status: planned
+#### Implementation Status: Implemented
 
 ### DB
 
